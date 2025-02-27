@@ -40,50 +40,16 @@ A full-stack web application built using both MERN (MongoDB, Express, React, Nod
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
----
-
-## 📦 Installation
-
-1. Clone the repo:
-   ```sh
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Start the development server:
-   ```sh
-   npm run dev
-   ```
-
----
 
 ## 🚀 Features
 - Authentication (JWT & OAuth)
-- Role-based Authorization
+- Role-based Authorization And Permissions
 - CRUD Operations
 - Real-time Notifications (Pusher, Firebase)
 - File Uploads (Cloudinary, AWS S3)
 - Responsive UI & Dark Mode
 - Dockerized Deployment
 - GraphQL API & REST API Support
-
----
-
-## 🤝 Contributing
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📜 License
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ---
 
 ## 📞 +923150598891
