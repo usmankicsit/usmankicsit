@@ -1,132 +1,91 @@
-## Hi there 👋
+# 📌 Project Title
 
-<!--
-**usmankicsit/usmankicsit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...# MERN Stack Project
-
-## 🚀 Project Overview
-A full-stack web application built using the **MERN stack** (MongoDB, Express.js, React, Node.js). This project follows best practices for scalable and maintainable development.
-
-## 🛠️ Tech Stack
-
-### **Frontend (React.js & Ecosystem)**
-- **React.js** – Frontend framework
-- **Next.js** (Optional) – SSR & SSG support
-- **Redux Toolkit / Zustand** – State management
-- **React Query (TanStack Query)** – Data fetching & caching
-- **Tailwind CSS / MUI / Chakra UI** – Styling & UI framework
-- **Framer Motion** – Animations
-- **Axios / Fetch API** – API requests
-
-### **Backend (Node.js & Express.js)**
-- **Node.js** – Runtime environment
-- **Express.js** – Backend framework
-- **Mongoose / Prisma** – ODM/ORM for MongoDB
-- **JWT (jsonwebtoken)** – Authentication
-- **bcryptjs / Argon2** – Password hashing
-- **Socket.io / WebSockets** – Real-time communication
-- **Cloudinary / AWS S3** – File storage
-- **BullMQ / Agenda** – Job queues
-- **Swagger / Postman** – API documentation
-
-### **Database (MongoDB)**
-- **MongoDB Atlas** – Cloud database
-- **Mongoose Schema Models** – ORM for MongoDB
-
-### **DevOps & Deployment**
-- **Docker** – Containerization
-- **Vercel / Netlify** – Frontend deployment
-- **Render / Heroku / AWS EC2** – Backend deployment
-- **GitHub Actions** – CI/CD automation
-- **PM2** – Process manager for Node.js
+## 🚀 Overview
+A full-stack web application built using both MERN (MongoDB, Express, React, Node.js) and PERN (PostgreSQL, Express, React, Node.js) stacks, providing scalability, flexibility, and high performance.
 
 ---
 
-## 📂 Folder Structure
-```
-📦 my-mern-app
- ┣ 📂 client       # React Frontend
- ┣ 📂 server       # Express Backend
- ┣ 📂 models       # Database Models (MongoDB)
- ┣ 📂 routes       # API Routes
- ┣ 📂 controllers  # Logic for Routes
- ┣ 📂 middleware   # Authentication & Authorization
- ┣ 📂 utils        # Helper Functions
- ┣ 📜 .env         # Environment Variables
- ┣ 📜 package.json # Dependencies
- ┗ 📜 README.md    # Documentation
-```
+## 💻 Tech Stack
+
+### 🌐 Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Material-UI](https://img.shields.io/badge/Material--UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
+
+### 🖥️ Backend
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-02569B?style=for-the-badge)
+
+### 🛢️ Database
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+### 🖥️ DevOps & Cloud
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+
+### 🛠️ Tools & Software
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
-## 🔧 Installation & Setup
+## 📦 Installation
 
-### 1️⃣ Clone the repository
-```sh
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-```
-
-### 2️⃣ Install dependencies (for both frontend & backend)
-```sh
-# Install server dependencies
-cd server
-npm install
-
-# Install client dependencies
-cd ../client
-npm install
-```
-
-### 3️⃣ Set up environment variables
-Create a `.env` file in the **server** folder and add:
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-CLOUDINARY_URL=your_cloudinary_api
-```
-
-### 4️⃣ Run the development servers
-```sh
-# Start Backend Server (http://localhost:5000)
-cd server
-npm run dev
-
-# Start Frontend Server (http://localhost:3000)
-cd client
-npm start
-```
+1. Clone the repo:
+   ```sh
+   git clone https://github.com/yourusername/your-repo.git
+   cd your-repo
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
 
 ---
 
 ## 🚀 Features
-✅ User Authentication (Register/Login with JWT)  
-✅ Role-Based Access Control (RBAC)  
-✅ CRUD Operations (Create, Read, Update, Delete)  
-✅ Real-time Notifications (Socket.io)  
-✅ File Uploads (Cloudinary)  
-✅ Dark Mode Support  
-✅ API Documentation (Swagger)  
+- Authentication (JWT & OAuth)
+- Role-based Authorization
+- CRUD Operations
+- Real-time Notifications (Pusher, Firebase)
+- File Uploads (Cloudinary, AWS S3)
+- Responsive UI & Dark Mode
+- Dockerized Deployment
+- GraphQL API & REST API Support
 
 ---
 
-## 🐛 Issues & Contributions
-Feel free to open an issue or submit a pull request!
+## 🤝 Contributing
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ---
 
 ## 📜 License
-This project is **MIT licensed**. You are free to use and modify it for personal or commercial projects.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 📞 +923150598891
+** Muhammad Usman**  
+[GitHub](https://github.com/usmankicsit) • [LinkedIn](https://linkedin.com/in/muhammad-usman-758853228)
