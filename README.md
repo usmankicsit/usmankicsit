@@ -1,10 +1,3 @@
-# 📌 Project Title
-
-## 🚀 Overview
-A full-stack web application built using both MERN (MongoDB, Express, React, Node.js) and PERN (PostgreSQL, Express, React, Node.js) stacks, providing scalability, flexibility, and high performance.
-
----
-
 ## 💻 Tech Stack
 
 ### 🌐 Frontend
