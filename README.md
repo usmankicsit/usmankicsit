@@ -34,17 +34,6 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 
-## 🚀 Features
-- Authentication (JWT & OAuth)
-- Role-based Authorization And Permissions
-- CRUD Operations
-- Real-time Notifications (Pusher, Firebase)
-- File Uploads (Cloudinary, AWS S3)
-- Responsive UI & Dark Mode
-- Dockerized Deployment
-- GraphQL API & REST API Support
----
-
 ## 📞 +923150598891
 ** Muhammad Usman**  
 [GitHub](https://github.com/usmankicsit) • [LinkedIn](https://linkedin.com/in/muhammad-usman-758853228)
